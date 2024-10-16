@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a2e; 
+    font-family: 'Press Start 2P', cursive; 
+    color: #e94560; 
+}
+
+h1 {
+    color: #00adb5; 
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7); 
+    margin-bottom: 20px;
+}
+
+.bod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.child {
+    height: 110px;
+    width: 200px;
+    font-size: 2rem;
+    background-color: #393e46; 
+    border: 5px solid #00adb5; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+    margin: 10px 0;
+    transition: transform 0.2s;
+}
+
+.child:hover {
+    transform: scale(1.05); 
+}
+
+#last {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #ffd369; 
+    font-size: 1.5rem;
+    text-align: right;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
+}
